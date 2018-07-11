@@ -56,6 +56,7 @@ function showAnimals(pets) {
     } ${pet.contact.zip.$t}</p>
           <ul class="list-group">
             <li class="list-group-item">Phone: ${pet.contact.phone.$t}</li>
+            <li class="list-group-item">Phone: ${pet.description.$t}</li> 
             ${
               pet.contact.email.$t
                 ? `<li class="list-group-item">Email: ${
